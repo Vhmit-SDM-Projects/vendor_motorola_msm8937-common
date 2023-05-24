@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter msm8937,$(TARGET_BOARD_PLATFORM)),)
+($(filter ahannah cedric hannah james montana rhannah aljeter,$(TARGET_DEVICE)),)
 
 endif
